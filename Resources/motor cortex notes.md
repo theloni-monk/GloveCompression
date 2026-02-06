@@ -1,7 +1,7 @@
 population coding is predominant anaysis technique
 
 rate coding analysis of many neurons -> do dPCA
-dPCA is like PCA, but 
+dPCA is like PCA, but has distinct encoding and decoding matrices, rather than adjoint encoding and decoding
 
 visually guided movements have three distinct dynamic motifs
 
