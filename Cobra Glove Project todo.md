@@ -1,5 +1,6 @@
 ### Reading
 - [x] [https://www.nature.com/articles/s41586-025-09255-w](https://www.nature.com/articles/s41586-025-09255-w) ✅ 2026-01-19
+- [x] Read mujoco / myosuite constraint specification 
 - [ ] read about pose SOTA
 - [ ] Write blurb advertising a reading group: 📅 2026-02-01 
 	Motion Analysis and Synthesis "in the Wild"
@@ -17,21 +18,26 @@
 - [x] make initial pose box plot 📅 2026-01-27 ✅ 2026-01-26
 ![[Pasted image 20260126064859.png]]
 - [x] make video export pipeline with a few known tasks 📅 2026-01-26 ✅ 2026-01-26
-- [ ] side-by-side PCA viz:  
+- [x] fix thumb hardcoding
+- [ ] side-by-side PCA viz:  #TODAY
 - Number of PCs per task (for 1 participant), how generalizable are PCs across task?
 - Visualization for comparing undersensorized data (e.g. PC hands) to full data hand
 
 ### Explore
 Compute decompositions 
-* [ ] PCA baselines
+* [x] PCA baselines
 * PCA on Euclidean position space
 * PCA on Euclidean embedding of joint-angle space
 * Euclidean PCA on position forward-differences
 * Euclidean PCA on joint-angle forward-differences
-* [ ] PCA extensions
+* [x] FISTA-based LCA over knuckles ✅ 2026-02-03
+* [x] L0 branch-and-bound combinatorial search over joint combos ✅ 2026-02-03
+* [x] intra patient variance comparison
+* [x] intra task variance comparison
+- [ ] Nonlinear analysis
 * pca on SO(3) group via Schmidt decomp : trace(irrepA'irrepB) as inner product
 * pca on so(3) vector algebra of forward-differences 
-* LCA
+* LCA same as above
 Implementing constraints from biomechanics:  
 - 1) limits on jt angles/ combinations
     - rough guesses based on own hand
@@ -39,4 +45,4 @@ Implementing constraints from biomechanics:
 
 ### Comm
 - [x] Talk to Jorge about CIVO access to Meta Wristband devkit ✅ 2026-01-21
-- [ ] add my lab notebook to lab wiki 
+- [x] add my lab notebook to lab wiki 
