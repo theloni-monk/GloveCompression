@@ -19,9 +19,9 @@
 ![[Pasted image 20260126064859.png]]
 - [x] make video export pipeline with a few known tasks 📅 2026-01-26 ✅ 2026-01-26
 - [x] fix thumb hardcoding
-- [ ] side-by-side PCA viz:  #TODAY
-- Number of PCs per task (for 1 participant), how generalizable are PCs across task?
-- Visualization for comparing undersensorized data (e.g. PC hands) to full data hand
+- [x] root-offset rotation📅 2026-02-09 
+- [ ] side-by-side PCA viz  #TODAY
+- [x] Component Anaylsi:  Number of PCs per task (for 1 participant), how generalizable are PCs across task? ✅ 2026-02-08
 
 ### Explore
 Compute decompositions 
@@ -33,7 +33,9 @@ Compute decompositions
 * [x] FISTA-based LCA over knuckles ✅ 2026-02-03
 * [x] L0 branch-and-bound combinatorial search over joint combos ✅ 2026-02-03
 * [x] intra patient variance comparison
+![[ev prog across patients by task.png]]
 * [x] intra task variance comparison
+![[ev prog across tasks by patient.png]]
 - [ ] Nonlinear analysis
 * pca on SO(3) group via Schmidt decomp : trace(irrepA'irrepB) as inner product
 * pca on so(3) vector algebra of forward-differences 

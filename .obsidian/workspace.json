@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 460.8
   },
   "right": {
     "id": "b772051ddca1eb7b",
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +194,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d492f99c9a0c248f",
-  "lastOpenFiles": []
+  "active": "c9fd0c61aced80d7",
+  "lastOpenFiles": [
+    "Resources/figs-in-prog/ev prog across tasks by patient.png",
+    "Resources/figs-in-prog/ev prog across patients by task.png",
+    "DynamicalBiomedicine.base",
+    "Reading List.md",
+    "Cobra Glove Project todo.md",
+    "Resources/figs-in-prog/task3_exemplar.gif",
+    "Resources/figs-in-prog/Pasted image 20260126064859.png",
+    "Resources/motor cortex notes.md"
+  ]
 }
